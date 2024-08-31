@@ -42,14 +42,32 @@ The project involves:
 
 ## Setup and Usage
 
-### 1. Install and Import Required Libraries
-
-```python
-!pip install kaggle pandas sqlalchemy pyodbc
+## Installation Instructions
+ ### 1. Install and Import Required Libraries
+    ```bash
+   !pip install kaggle pandas sqlalchemy pyodbc
 import kaggle
 import zipfile
 import pandas as pd
 import sqlalchemy as sal
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd loan-repayment-prediction
+    ```
+3. Create and activate a virtual environment:
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+4. Install the required packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+
+
+
 
 2. Download and Extract Dataset
 
