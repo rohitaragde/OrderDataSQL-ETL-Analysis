@@ -50,3 +50,12 @@ import kaggle
 import zipfile
 import pandas as pd
 import sqlalchemy as sal
+
+# Download the dataset
+!kaggle datasets download ankitbansal06/retail-orders -f orders.csv
+
+# Extract the dataset
+zip_ref = zipfile.ZipFile('orders.csv.zip')
+zip_ref.extractall()
+zip_ref.close()
+
