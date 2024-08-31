@@ -6,6 +6,29 @@ This project demonstrates the process of downloading, cleaning, processing, and 
 
 ![System Overview](https://github.com/rohitaragde/OrderDataSQL-ETL-Analysis/blob/master/system_overview.png)
 
+## System Design Overview
+
+1. **Kaggle API**
+   - The pipeline begins with downloading a dataset from Kaggle using the Kaggle API.
+   - The data is fetched directly from Kaggle's vast collection of datasets, which are commonly used for data science and machine learning projects.
+
+2. **Data Cleaning and Processing with Python**
+   - After acquiring the dataset, it is initially processed using Python.
+   - This step involves basic data cleaning tasks such as handling missing values, normalizing data, and making the dataset ready for further manipulation.
+
+3. **Advanced Data Manipulation using Pandas**
+   - The cleaned data is then passed to Pandas, a powerful data analysis library in Python.
+   - Further data processing is done here, including reshaping, merging, and transforming the data as needed.
+
+4. **Loading Data into SQL Server**
+   - Once the data is fully processed, it is loaded into an SQL Server database.
+   - The data is stored in SQL tables, making it accessible for complex querying and further analysis.
+
+5. **Data Analysis using SQL**
+   - The final step involves performing data analysis using SQL directly on the SQL Server.
+   - SQL queries are used to extract insights, generate reports, and create visualizations from the stored data.
+
+
 
 ## Project Objectives
 - **Sales Trends Analysis:** Identify top-selling products and regions, and analyze revenue generation across different periods.
