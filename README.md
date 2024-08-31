@@ -44,7 +44,7 @@ The project involves:
 
 ## Installation Instructions
  ### 1. Install and Import Required Libraries
-    ```bash
+    ```python
    !pip install kaggle pandas sqlalchemy pyodbc
 import kaggle
 import zipfile
