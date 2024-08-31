@@ -53,7 +53,7 @@ pip install kaggle pandas sqlalchemy pyodbc
 1. Download Dataset: Use the Kaggle API to download the orders.csv file from the Kaggle dataset.
 2. Extract and Load Data: Unzip the downloaded file and read it into a Pandas DataFrame. Handle missing values by specifying na_values.
    
-### 3. Data Cleaning
+# 3. Data Cleaning
 - **Normalize Column Names:** Convert column names to lowercase and replace spaces with underscores.
 - **Convert Dates:** Change date columns to appropriate datetime formats.
 - **Derive New Columns:** Create new columns such as `discount`, `sale_price`, and `profit` for further analysis.
