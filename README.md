@@ -47,7 +47,7 @@ The project involves:
 
 2. Setup Kaggle API: Ensure you have set up your Kaggle API credentials to download datasets programmatically. Place your kaggle.json file in the correct directory (e.g., ~/.kaggle/ on Linux/MacOS).
 
-3. Data Analysis:-
+3. Data Analysis
 
 - Download Dataset: Use the Kaggle API to download the orders.csv file from the Kaggle dataset.
 - Extract and Load Data: Unzip the downloaded file and read it into a Pandas DataFrame. Handle missing values by specifying na_values.
