@@ -1,8 +1,11 @@
 # Retail Orders Data Analysis
 
+This project demonstrates the process of downloading, cleaning, processing, and analyzing retail order data using Python, Kaggle API, and SQL. The dataset used is from Kaggle, and the analysis is performed on SQL Server.
+
+# System Overview
+
 ![System Overview](https://github.com/rohitaragde/OrderDataSQL-ETL-Analysis/blob/master/system_overview.png)
 
-This project demonstrates the process of downloading, cleaning, processing, and analyzing retail order data using Python, Kaggle API, and SQL. The dataset used is from Kaggle, and the analysis is performed on SQL Server.
 
 ## Project Objectives
 - **Sales Trends Analysis:** Identify top-selling products and regions, and analyze revenue generation across different periods.
