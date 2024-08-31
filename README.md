@@ -40,3 +40,28 @@ The project involves:
 
 - **Python Script**: Handles data download using the Kaggle API, cleaning, processing, and loading into SQL Server.
 - **SQL Script**: Contains queries to perform ETL analysis on the loaded data.
+
+## Installation and Data Analysis 
+
+1. Installation
+pip install kaggle pandas sqlalchemy pyodbc
+
+2. Setup Kaggle API: Ensure you have set up your Kaggle API credentials to download datasets programmatically. Place your kaggle.json file in the correct directory (e.g., ~/.kaggle/ on Linux/MacOS).
+
+# Data Analysis
+
+1. Download Dataset: Use the Kaggle API to download the orders.csv file from the Kaggle dataset.
+2. Extract and Load Data: Unzip the downloaded file and read it into a Pandas DataFrame. Handle missing values by specifying na_values.
+3. Data Cleaning:
+   a) Normalize the column names by converting them to lowercase and replacing spaces with underscores.
+   b) Convert date columns to appropriate datetime formats.
+   c) Derive new columns such as discount, sale_price, and profit for further analysis.
+
+4. Database Connection: Establish a connection between Python and SQL Server using SQLAlchemy and pyODBC.
+5. Load Data into SQL Server: Import the cleaned data into SQL Server. You can use the replace option to overwrite an existing table or append to add data to an existing table.
+6. Perform SQL Analysis: Execute the provided SQL queries to analyze sales trends, profitability, and product performance.
+Generate reports and insights based on the query results.
+
+
+
+
