@@ -51,7 +51,7 @@ import zipfile
 import pandas as pd
 import sqlalchemy as sal
 
-# Download the dataset
+### 2. Download and Extract Dataset
 !kaggle datasets download ankitbansal06/retail-orders -f orders.csv
 
 # Extract the dataset
@@ -59,7 +59,7 @@ zip_ref = zipfile.ZipFile('orders.csv.zip')
 zip_ref.extractall()
 zip_ref.close()
 
-# Read the data
+### 3. Data Cleaning and Processing
 df = pd.read_csv('orders.csv', na_values=['Not Available', 'unknown'])
 
 # Rename columns
@@ -68,6 +68,8 @@ df.columns = df.columns.str.lower().str.replace(' ', '_')
 # Derive new columns
 df['profit_margin'] = (df['sales'] - df['profit']) / df['sales']
 df['order_month'] = pd.to_datetime(df['order_date']).dt.to_period('M')
+
+### 4. Load Data into SQL Server
 
 # Define SQL Server connection details
 engine = sal.create_engine('mssql+pyodbc://username:password@server/database?driver=ODBC+Driver+17+for+SQL+Server')
