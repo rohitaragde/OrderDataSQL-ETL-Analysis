@@ -16,7 +16,6 @@ The project involves:
 
 - **Source**: [Kaggle - Retail Orders](https://www.kaggle.com/datasets/ankitbansal06/retail-orders)
 - **File**: `orders.csv`
-- **License**: CC0-1.0
 
 ## Project Structure
 
