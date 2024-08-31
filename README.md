@@ -2,11 +2,11 @@
 
 This project demonstrates the process of downloading, cleaning, processing, and analyzing retail order data using Python, Kaggle API, and SQL. The dataset used is from Kaggle, and the analysis is performed on SQL Server.
 
-# System Overview
+# System Design Overview
 
 ![System Overview](https://github.com/rohitaragde/OrderDataSQL-ETL-Analysis/blob/master/system_overview.png)
 
-## System Design Overview
+The following steps outline the system design for the Retail Orders Data Analysis pipeline:-
 
 1. **Kaggle API**
    - The pipeline begins with downloading a dataset from Kaggle using the Kaggle API.
