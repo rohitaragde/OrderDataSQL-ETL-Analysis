@@ -69,23 +69,23 @@ The project involves:
 
 ## Installation and Data Analysis 
 
-1. Installation : Install required python libraries kaggle, pandas, sqlalchemy and pyodbc for the successful execution of the project.
+1. **Installation :** Install required python libraries kaggle, pandas, sqlalchemy and pyodbc for the successful execution of the project.
 
-2. Setup Kaggle API: Ensure you have set up your Kaggle API credentials to download datasets programmatically. Place your kaggle.json file in the correct directory (e.g., ~/.kaggle/ on Linux/MacOS).
+2. **Setup Kaggle API:** Ensure you have set up your Kaggle API credentials to download datasets programmatically. Place your kaggle.json file in the correct directory (e.g., ~/.kaggle/ on Linux/MacOS).
 
-3. Data Analysis
+3. **Data Analysis**
 
 - Download Dataset: Use the Kaggle API to download the orders.csv file from the Kaggle dataset.
 - Extract and Load Data: Unzip the downloaded file and read it into a Pandas DataFrame. Handle missing values by specifying na_values.
    
- 4. Data Cleaning
+ 4. **Data Cleaning**
 - Normalize Column Names: Convert column names to lowercase and replace spaces with underscores.
 - Convert Dates: Change date columns to appropriate datetime formats.
 - Derive New Columns: Create new columns such as `discount`, `sale_price`, and `profit` for further analysis.
 
-5. Database Connection: Establish a connection between Python and SQL Server using SQLAlchemy and pyODBC.
-6. Load Data into SQL Server: Import the cleaned data into SQL Server. You can use the replace option to overwrite an existing table or append to add data to an existing table.
-7. Perform SQL Analysis: Execute the provided SQL queries to analyze sales trends, profitability, and product performance.
+5. **Database Connection:** Establish a connection between Python and SQL Server using SQLAlchemy and pyODBC.
+6. **Load Data into SQL Server:** Import the cleaned data into SQL Server. You can use the replace option to overwrite an existing table or append to add data to an existing table.
+7. **Perform SQL Analysis:** Execute the provided SQL queries to analyze sales trends, profitability, and product performance.
 Generate reports and insights based on the query results.
 
 ## Conclusion and Future Work
