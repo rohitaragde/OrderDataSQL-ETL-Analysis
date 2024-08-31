@@ -4,6 +4,24 @@
 
 This project demonstrates the process of downloading, cleaning, processing, and analyzing retail order data using Python and SQL. The dataset used is from Kaggle, and the analysis is performed on SQL Server.
 
+## Project Objectives
+- **Sales Trends Analysis:** Identify top-selling products and regions, and analyze revenue generation across different periods.
+- **Profitability Insights:** Determine the most profitable product subcategories and analyze profit growth trends.
+- **Month-Over-Month Sales Comparison:** Compare sales performance between 2022 and 2023 to assess growth trends.
+- **Product Performance Analysis:** Evaluate the highest revenue-generating products and regions to inform inventory and marketing strategies.
+
+## Deliverables
+- **SQL Scripts:** A set of SQL scripts designed to extract insights from the retail orders dataset.
+- **Data Analysis Report:** A detailed report summarizing the findings and insights derived from the data analysis.
+- **System Overview Image:** Visual representation of the data flow from extraction to analysis.
+
+## Technologies Used
+- Python
+- Pandas
+- SQL Server
+- SQLAlchemy
+- pyODBC
+
 ## Project Overview
 
 The project involves:
