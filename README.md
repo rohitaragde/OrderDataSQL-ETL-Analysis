@@ -1,6 +1,6 @@
 # Retail Orders Data Analysis
 
-![System Overview](https://github.com/your-username/your-repo-name/blob/main/images/system_overview.png)
+![System Overview](https://github.com/rohitaragde/OrderDataSQL-ETL-Analysis/blob/master/system_overview.png)
 
 This project demonstrates the process of downloading, cleaning, processing, and analyzing retail order data using Python and SQL. The dataset used is from Kaggle, and the analysis is performed on SQL Server.
 
