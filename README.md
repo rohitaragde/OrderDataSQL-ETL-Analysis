@@ -24,11 +24,5 @@ The project involves:
 
 ## Setup and Usage
 
-### 1. Install and Import Required Libraries
 
-```python
-!pip install kaggle pandas sqlalchemy pyodbc
-import kaggle
-import zipfile
-import pandas as pd
-import sqlalchemy as sal
+
