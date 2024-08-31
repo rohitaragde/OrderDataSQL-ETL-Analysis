@@ -49,8 +49,8 @@ The project involves:
 
 3. Data Analysis:-
 
-1. Download Dataset: Use the Kaggle API to download the orders.csv file from the Kaggle dataset.
-2. Extract and Load Data: Unzip the downloaded file and read it into a Pandas DataFrame. Handle missing values by specifying na_values.
+- Download Dataset: Use the Kaggle API to download the orders.csv file from the Kaggle dataset.
+- Extract and Load Data: Unzip the downloaded file and read it into a Pandas DataFrame. Handle missing values by specifying na_values.
    
  4. Data Cleaning
 - Normalize Column Names: Convert column names to lowercase and replace spaces with underscores.
