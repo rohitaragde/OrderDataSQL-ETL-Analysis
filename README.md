@@ -82,6 +82,10 @@ This project effectively demonstrates how to analyze retail order data using Pyt
 
 7. **Review and Iterate:** Regularly review your project outcomes and iterate on your analysis to adapt to new data or changing business needs.
 
+## Authors
+
+**Rohit Annasaheb Ragde**
+
 
 
 
